@@ -1,0 +1,246 @@
+@media only screen and (max-width: 1250px) {
+    .app {
+        max-width: 750px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+
+    .movies-list,
+    .movie {
+        order: 1;
+    }
+
+    .todo-wrapper {
+        position: static;
+        order: 0;
+        margin: 0 15px 25px;
+        background: transparent;
+        border-bottom: 1px solid rgba(100,100,100,0.2);
+    }
+
+    .to-watch {
+        width: 100%;
+    }
+
+    .to-watch__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .to-watch__movie {
+        width: 30%;
+        margin-right: 3.3333%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .movie__info {
+        width: 60%;
+    }
+
+    .movie__poster {
+        margin-left: 15px;
+    }
+
+    .movie__info__genres {
+        flex-wrap: wrap;
+    }
+
+    .similar-movies__list {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .similar-movie {
+        width: 23%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-top: 0;
+    }
+
+    .movie__info {
+        padding-right: 0;
+    }
+
+    .movies-list__info,
+    .movies-list__item__poster {
+        min-width: 150px;
+    }
+
+    .movie__poster {
+        width: 35%;
+        height: 100%;
+    }
+
+    .to-watch__list {
+        margin-left: 0;
+    }
+
+    .to-watch__movie {
+        width: 46%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .movies-list {
+        justify-content: center;
+    }
+
+    .movies-list__item {
+        width: 150px;
+        height: 225px;
+        margin: 0 0.5% 5%;
+    }
+
+    .similar-movie {
+        height: 210px;
+    }
+
+
+    .app__header {
+        flex-wrap: wrap;
+    }
+
+    .search-form {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .movie__poster {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .movie__info {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .similar-movie {
+        width: 31%;
+        height: 250px;
+    }
+
+    .similar-movie:nth-child(7),
+    .similar-movie:nth-child(8) {
+        display: none;
+    }
+
+    .to-watch__movie {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .similar-movie {
+        height: 200px;
+    }
+
+    .movies-list__item,
+    .movies-list__info, 
+    .movies-list__item__poster {
+        min-width: 0%;
+        width: 130px;
+    }
+
+    .movies-list__item {
+        height: 195px;
+        margin-bottom: 40px;
+    }
+
+    .todo-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .movies-list {
+        justify-content: space-around;
+    }
+
+    .movies-list__item, .movies-list__info, .movies-list__item__poster {
+        width: 160px;
+    }
+
+    .movies-list__item {
+        height: 235px;
+    }
+
+    .movie-properties__item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}  
+
+@media only screen and (max-width: 375px) {
+    .similar-movie {
+        width: 48%;
+        height: 240px;
+    }
+
+    .movies-list__item, .movies-list__info, .movies-list__item__poster {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 360px)  {
+    .movie__poster {
+        width: 100%;
+    }
+
+    .movie-navigation {
+        flex-direction: column;
+    }
+
+    .movie-navigation .btn--back {
+        margin-bottom: 10px;
+    }
+
+    .movie__poster {
+        order: 1;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .similar-movies {
+        order: 2;
+    }
+
+    .to-watch__movie {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .movies-list__item,  
+    .movies-list__item__poster{
+        width: 130px;
+        height: 195px;
+    }
+
+    .movies-list__info {
+        width: 130px;
+        font-size: 11px;
+    }
+}
