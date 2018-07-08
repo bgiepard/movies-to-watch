@@ -11,8 +11,8 @@ DEMO: [bgiepard.pl/to-watch](http://bgiepard.pl/to-watch)
 * single movie information 
   - recommended movies
 * to-do list 
- - counting time 
- - use of local storage
+  - counting time 
+  - use of local storage
 
             
 ## v.2 
